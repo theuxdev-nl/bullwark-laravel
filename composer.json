@@ -27,6 +27,6 @@
     "php": ">=7.4",
     "laravel/framework": "^11.31",
     "firebase/php-jwt": "^6.11",
-    "dutchbull95/bullwark-php-sdk": "dev-main"
+    "theuxdev/bullwark-php-sdk": "dev-main"
   }
 }
