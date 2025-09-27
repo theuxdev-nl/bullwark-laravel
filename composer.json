@@ -1,6 +1,7 @@
 {
   "name": "theuxdev/laravel-bullwark",
-  "version": "1.0.0",
+  "description": "Laravel package for Bullwark, adopting the PHP SDK for easy Laravel use.",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Bullwark\\": "src/"
@@ -24,7 +25,7 @@
   },
   "require": {
     "php": ">=7.4",
-    "laravel/framework": "^12.31",
+    "laravel/framework": "^11.31",
     "firebase/php-jwt": "^6.11",
     "dutchbull95/bullwark-php-sdk": "dev-main"
   }
