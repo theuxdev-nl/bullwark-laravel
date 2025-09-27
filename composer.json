@@ -1,0 +1,31 @@
+{
+  "name": "theuxdev/laravel-bullwark",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Bullwark\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Paul 'Bull' Brouwer",
+      "email": "paul@theuxdev.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bullwark\\Providers\\BullwarkServiceProvider"
+      ],
+      "aliases": {
+        "Bullwark": "Bullwark\\Facades\\BullwarkFacade"
+      }
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "laravel/framework": "^12.31",
+    "firebase/php-jwt": "^6.11",
+    "dutchbull95/bullwark-php-sdk": "dev-main"
+  }
+}
