@@ -16,7 +16,7 @@ class BullwarkServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../../Config/bullwark.php', 'bullwark'
+            __DIR__.'../Config/bullwark.php', 'bullwark'
         );
 
         $this->app->singleton(BullwarkService::class, function ($app) {
