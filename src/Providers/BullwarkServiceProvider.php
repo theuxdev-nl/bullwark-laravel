@@ -25,7 +25,5 @@ class BullwarkServiceProvider extends ServiceProvider
 
         $this->app['router']->aliasMiddleware('bullwark.auth', BullwarkAuth::class);
         $this->app['router']->aliasMiddleware('bullwark.ability', BullwarkAbility::class);
-
-
     }
 }
