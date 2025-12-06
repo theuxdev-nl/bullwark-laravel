@@ -34,6 +34,11 @@ class BullwarkService
         return $this->bullwarkSdk->getIsInitializing();
     }
 
+    public function setTenantUuid(string $tenantUuid): void
+    {
+        return $this->bullwarkSdk->setTenantUuid($tenantUuid);
+    }
+
     public function login(string $email, string $password): bool
     {
         return $this->bullwarkSdk->login($email, $password);
